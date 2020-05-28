@@ -13,7 +13,7 @@
 # order to compute correction factors for sense-hat readings. DHT22 has been tested for accuracy.
 #
 # This code is a modification of mainPinuts.py
-# SenseHat and DHT22 are mounted on the same raspi 3B (26 pin extended header)
+# SenseHat and DHT22 are mounted on the same raspi 3B (26+2 pin extended header)
 # DHT22 sensor is on BCM pins BCM20(readings), BCM21(power), BOARD39(ground),
 # gpiozero LED module used for powering DHT22 (gpiozero and Adafruit_DHT both use BCM numbering)
 # Ephem and TLE related stuff has been taken out from original code
