@@ -9,7 +9,8 @@
 ############################################################################
 # 
 # DHT22 sensor has reading errors
-# This programs gets rid of error message lines in preraration for calulations
+# This programs gets rid of error message lines in preraration for
+# subsequent calulations
 #
 ############################################################################
 
