@@ -1,9 +1,8 @@
 # SUMMARY
 
-Climate change has increased the frequency and extent of wildfires all around the world which is something countries with low rainfall like ours are most concerned with and the main reason we've chosen wildfire tracking as a research topic.
+When we began researching for an experiment idea we came across a picture of astronaut Chris Hadfield on ISS playing guitar in shorts which led us to wonder how hot it really feels on ISS (heat index).
 
-Satellite fire monitoring helps visualizing the impact on ecosystems as well as assessing smoke and carbon emissions into the atmosphere. At a smaller scale, tracking allows communities to take better care of its natural resources.
+It turns out apparent temperature is an important factor in demanding environments like on board ISS because it can decrease motor skills and mental performance thus making completing tasks and avoiding errors more difficult.
 
-To find out if affordable tools like a Raspberry Pi and the NoIR camera module are a viable means of keeping an eye on the environment our team intended to spot wildfire areas using NDVI techniques on pictures taken by AstroPi's near-infrared camera and subsequently estimate gross burnt area.
-
-NDVI (Normalized Difference Vegetation Index) takes advantage of the fact that healthy vegetation mostly absorbs blue and red light and reflects green and infrared. A camera that doesn't block IR fitted with a blue filter that gets rid of green light let us examine the ratio between blue and IR amounts thus sorting areas according to photosynthetic activity. In that regard, burnt areas should stand out against their surroundings.
+Our goal is to find out heat index from on-board temperature, pressure and humidity by means of psychrometric calculations.
+For a known humidity level on ISS of around 60% we expect the heat index (HI) to be lower than 28ºC  (actual temperature being ≤27ºC or ≤80F) since higher values could pose a threat to crew safety and efficiency (Fig-5).
